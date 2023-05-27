@@ -35,7 +35,7 @@ im = Image.open('img/movie_icon.png')
 st.set_page_config(page_title="Movie Recommender", page_icon=im, layout="wide")
 st.header('Movie Recommendation System')
 st.subheader('-By Rahul Sharma(Team Leader)')
-st.text('Team Members : Abhijeet Singh and Nipun Tiwari')
+st.markdown('Team Members : Abhijeet Singh and Nipun Tiwari')
 
 # Drop Down Movie Selector
 movies = pickle.load(open('movie_list1.pkl', 'rb'))
